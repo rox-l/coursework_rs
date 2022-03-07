@@ -7,7 +7,6 @@ Created on Wed Dec  1 18:26:01 2021
 """
 
 # Import libraries
-import rasterio
 import zipfile
 import numpy as np
 import matplotlib.pyplot as plt
@@ -15,8 +14,8 @@ import os
 import cv2
 
 # Path to directories
-input_path = "/Users/roxannelai/Desktop/RemoteSensingAnalysis_A1_2021/Report1/input/"
-output_path = "/Users/roxannelai/Desktop/RemoteSensingAnalysis_A1_2021/Report1/output/"
+input_path = "/Users/roxannelai/Desktop/RemoteSensingAnalysis_A1/Report1/input/"
+output_path = "/Users/roxannelai/Desktop/RemoteSensingAnalysis_A1/Report1/output/"
 #%%
 # read in images using imread()
 # -1 is for uint16
@@ -66,5 +65,5 @@ pansharpened_img = brovey_sharpen(resized_list)
 # print(pansharpened_img.shape)
 
 #%%
-cv2.imwrite(output_path+ 'pantest.tif', pansharpened_img)
+cv2.imwrite(output_path+ 'pan2test.tif', pansharpened_img)
 
