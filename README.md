@@ -1,5 +1,5 @@
-# RSA1
-Repository of scripts for UTokyo Remote Sensing A1 Class 
+# Coursework
+Repository of scripts for various coursework projects. Used mainly for education purposes 
 
 ## Contents
-- report1.py: script to pansharpen high-resolution satellite imagery using the Weighted Brovey Method
+* report1.py: script to pansharpen high-resolution satellite imagery using the Weighted Brovey Method
